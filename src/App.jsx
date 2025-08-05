@@ -1,24 +1,42 @@
 // src/App.jsx
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
+import Header from './components/Header';
 import Home from './pages/Home';
+
 import Events from './pages/Events';
-import About from './components/about';
-import Gallery from './pages/Gallery'; // if Sports is Gallery
-import News from './pages/News';       // optional
-import Contact from './pages/Contact'; // optional
+import EducationalEvents from './pages/EducationalEvents';
+import SportsEvents from './pages/SportsEvents';
+import CulturalEvents from './pages/CulturalEvents';
+
+import Gallery from './pages/Gallery';
+import ImageGallery from './pages/ImageGallery';
+import VideoGallery from './pages/VideoGallery';
+
+import News from './pages/News';
+import Contact from './pages/Contact';
 
 function App() {
   return (
     <Router>
-     
+    
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/events" element={<Events />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/sports" element={<Gallery />} /> {/* assuming this maps to sports */}
-        {/* Add more routes if needed */}
+
+        {/* Events */}
+        <Route path="/events" element={<Events />}>
+          <Route path="educational" element={<EducationalEvents />} />
+          <Route path="sports" element={<SportsEvents />} />
+          <Route path="cultural" element={<CulturalEvents />} />
+        </Route>
+
+        {/* Gallery */}
+        <Route path="/gallery" element={<Gallery />}>
+          <Route path="images" element={<ImageGallery />} />
+          <Route path="videos" element={<VideoGallery />} />
+        </Route>
+
+        <Route path="/news" element={<News />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );
