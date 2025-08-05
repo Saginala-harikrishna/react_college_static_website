@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import '../css/CulturalEvents.css';
 
 const CulturalEvent = () => {
   const [events, setEvents] = useState([]);

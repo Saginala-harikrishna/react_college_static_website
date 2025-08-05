@@ -1,7 +1,7 @@
 // src/pages/Gallery.jsx
 import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
-
+import '../css/Gallery.css';
 function Gallery() {
   return (
     <div style={{ padding: '30px' }}>

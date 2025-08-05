@@ -18,7 +18,7 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <Router>
-    
+     <Header />
       <Routes>
         <Route path="/" element={<Home />} />
 
@@ -34,7 +34,7 @@ function App() {
           <Route path="images" element={<ImageGallery />} />
           <Route path="videos" element={<VideoGallery />} />
         </Route>
-
+        <Route path="/SportsEvents" element={<SportsEvents />} />
         <Route path="/news" element={<News />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

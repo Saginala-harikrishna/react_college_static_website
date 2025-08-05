@@ -1,5 +1,6 @@
 // src/pages/ImageGallery.jsx
 import React from 'react';
+import '../css/ImageGallery.css';
 
 const images = [
   "https://source.unsplash.com/featured/?college,event",

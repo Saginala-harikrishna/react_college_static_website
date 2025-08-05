@@ -1,0 +1,14 @@
+/* src/css/EducationalEvents.css */
+
+h3 {
+  color: #1d4ed8;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+ul {
+  list-style: disc inside;
+  padding: 0 20px;
+  font-size: 1.1rem;
+  color: #374151;
+}

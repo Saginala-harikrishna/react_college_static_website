@@ -22,11 +22,17 @@ function Header() {
         <NavLink to="/events" className="nav-link" activeclassname="active">
           Events
         </NavLink>
-        <NavLink to="/about" className="nav-link" activeclassname="active">
-          About Us
+        <NavLink to="/gallery" className="nav-link" activeclassname="active">
+         Gallery
         </NavLink>
-        <NavLink to="/sports" className="nav-link" activeclassname="active">
+        <NavLink to="/SportsEvents" className="nav-link" activeclassname="active">
           Sports
+        </NavLink>
+          <NavLink to="/news" className="nav-link" activeclassname="active">
+         News
+        </NavLink>
+          <NavLink to="/contact" className="nav-link" activeclassname="active">
+         Contact
         </NavLink>
       </nav>
     </header>

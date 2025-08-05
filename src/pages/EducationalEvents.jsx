@@ -1,5 +1,6 @@
 // src/pages/EducationalEvents.jsx
 import React from 'react';
+import '../css/EducationalEvents.css';
 
 function EducationalEvents() {
   return (

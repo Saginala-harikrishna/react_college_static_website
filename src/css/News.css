@@ -1,0 +1,14 @@
+/* src/css/News.css */
+
+h2 {
+  text-align: center;
+  color: #dc2626;
+  margin-bottom: 20px;
+}
+
+ul {
+  font-size: 1.1rem;
+  list-style: disc inside;
+  padding: 0 20px;
+  color: #334155;
+}

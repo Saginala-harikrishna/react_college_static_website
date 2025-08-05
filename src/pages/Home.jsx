@@ -10,7 +10,7 @@ import AlumniSection from '../components/AlumniSection';
 function Home() {
   return (
     <div>
-         <Header />
+        
       <HeroSection />
       <About />
       <AlumniSection />

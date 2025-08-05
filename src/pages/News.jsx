@@ -1,5 +1,7 @@
 // src/pages/News.jsx
 import React from 'react';
+import '../css/News.css';
+
 
 function News() {
   return (

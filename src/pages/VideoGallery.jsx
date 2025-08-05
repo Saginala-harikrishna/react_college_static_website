@@ -1,5 +1,7 @@
 // src/pages/VideoGallery.jsx
 import React from 'react';
+import '../css/VideoGallery.css';
+
 
 function VideoGallery() {
   return (
